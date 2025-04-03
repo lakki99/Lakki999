@@ -6,13 +6,13 @@ from logging.handlers import RotatingFileHandler
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = int(os.environ.get("API_ID", "22432833"))
+API_HASH = os.environ.get("API_HASH", "897f1c440892cfc46c7e222dfb37d015")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://enobot12345:4wEyfM0FvZxNhAKi@cluster0.a4rj3dj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "Lakki")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
